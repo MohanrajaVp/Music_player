@@ -86,7 +86,7 @@ body{
 
 .progress-bar{
 
-    width: 50%;
+    width: 0%;
     height: inherit;
     border-radius: inherit;
     background-color: #0987f6;
@@ -122,4 +122,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.control-btn span{
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4d4d4d;
+}
+.control-btn span:active{
+    box-shadow: inset 6px 6px 10px -1px rgba(0,0,0,0.15),
+   inset -6px -6px 10px -1px rgba(255,255,255,0.7);
 }
